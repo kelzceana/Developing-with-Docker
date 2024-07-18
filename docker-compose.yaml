@@ -4,6 +4,10 @@ services:
     # image: ${docker-registry}/my-app:1.0
     # ports:
      # - 3000:3000
+  myapp:
+    image: myapp:1.1
+    ports:
+    - 3000:3000
   mongodb:
     image: mongo
     ports:
